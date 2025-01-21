@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiConsume", "ApiConsume", "{8484F24B-2486-4B25-A891-3371F0AABB50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileImageService.BusinessLayer", "ApiConsume\FileImageService.BusinessLayer\FileImageService.BusinessLayer.csproj", "{29EE65D8-BB87-4A2D-99B2-75C8FD8479E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileImageService.DataAccessLayer", "ApiConsume\FileImageService.DataAccessLayer\FileImageService.DataAccessLayer.csproj", "{FD47A577-1F2A-44FF-B046-8F7D63E07627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileImageService.DtoLayer", "ApiConsume\FileImageService.DtoLayer\FileImageService.DtoLayer.csproj", "{FC9E5A8B-0F35-496C-BCAC-C91346FB0A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileImageService.EntityLayer", "ApiConsume\FileImageService.EntityLayer\FileImageService.EntityLayer.csproj", "{344DC128-FD01-4EFD-90EA-B41EBD23EB17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileImageService.API", "ApiConsume\FileImageService.API\FileImageService.API.csproj", "{81C7A99F-D7D2-47D3-B4DC-E83118BCC65C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29EE65D8-BB87-4A2D-99B2-75C8FD8479E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29EE65D8-BB87-4A2D-99B2-75C8FD8479E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29EE65D8-BB87-4A2D-99B2-75C8FD8479E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29EE65D8-BB87-4A2D-99B2-75C8FD8479E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD47A577-1F2A-44FF-B046-8F7D63E07627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD47A577-1F2A-44FF-B046-8F7D63E07627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD47A577-1F2A-44FF-B046-8F7D63E07627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD47A577-1F2A-44FF-B046-8F7D63E07627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC9E5A8B-0F35-496C-BCAC-C91346FB0A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9E5A8B-0F35-496C-BCAC-C91346FB0A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9E5A8B-0F35-496C-BCAC-C91346FB0A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9E5A8B-0F35-496C-BCAC-C91346FB0A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{344DC128-FD01-4EFD-90EA-B41EBD23EB17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344DC128-FD01-4EFD-90EA-B41EBD23EB17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344DC128-FD01-4EFD-90EA-B41EBD23EB17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344DC128-FD01-4EFD-90EA-B41EBD23EB17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C7A99F-D7D2-47D3-B4DC-E83118BCC65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C7A99F-D7D2-47D3-B4DC-E83118BCC65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C7A99F-D7D2-47D3-B4DC-E83118BCC65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C7A99F-D7D2-47D3-B4DC-E83118BCC65C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29EE65D8-BB87-4A2D-99B2-75C8FD8479E0} = {8484F24B-2486-4B25-A891-3371F0AABB50}
+		{FD47A577-1F2A-44FF-B046-8F7D63E07627} = {8484F24B-2486-4B25-A891-3371F0AABB50}
+		{FC9E5A8B-0F35-496C-BCAC-C91346FB0A80} = {8484F24B-2486-4B25-A891-3371F0AABB50}
+		{344DC128-FD01-4EFD-90EA-B41EBD23EB17} = {8484F24B-2486-4B25-A891-3371F0AABB50}
+		{81C7A99F-D7D2-47D3-B4DC-E83118BCC65C} = {8484F24B-2486-4B25-A891-3371F0AABB50}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE88CF63-10FF-4721-B1EE-0B9C3BC72B61}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\bin\Release\net8.0\FileImageService.DtoLayer.deps.json
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\bin\Release\net8.0\FileImageService.DtoLayer.runtimeconfig.json
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\bin\Release\net8.0\FileImageService.DtoLayer.dll
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\bin\Release\net8.0\FileImageService.DtoLayer.pdb
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\bin\Release\net8.0\FileImageService.EntityLayer.dll
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\bin\Release\net8.0\FileImageService.EntityLayer.pdb
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\obj\Release\net8.0\FileImageService.DtoLayer.csproj.AssemblyReference.cache
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\obj\Release\net8.0\FileImageService.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\obj\Release\net8.0\FileImageService.DtoLayer.AssemblyInfoInputs.cache
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\obj\Release\net8.0\FileImageService.DtoLayer.AssemblyInfo.cs
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\obj\Release\net8.0\FileImageService.DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\obj\Release\net8.0\FileImageService.DtoLayer.csproj.CopyComplete
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\obj\Release\net8.0\FileImageService.DtoLayer.dll
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\obj\Release\net8.0\refint\FileImageService.DtoLayer.dll
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\obj\Release\net8.0\FileImageService.DtoLayer.pdb
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\obj\Release\net8.0\FileImageService.DtoLayer.genruntimeconfig.cache
+C:\Users\MLNPC\Desktop\FindMovix\Backend\FileImageService\ApiConsume\FileImageService.DtoLayer\obj\Release\net8.0\ref\FileImageService.DtoLayer.dll

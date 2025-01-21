@@ -1,0 +1,17 @@
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\bin\Release\net8.0\UserLoginRegisterService.DataAccessLayer.deps.json
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\bin\Release\net8.0\UserLoginRegisterService.DataAccessLayer.runtimeconfig.json
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\bin\Release\net8.0\UserLoginRegisterService.DataAccessLayer.dll
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\bin\Release\net8.0\UserLoginRegisterService.DataAccessLayer.pdb
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\bin\Release\net8.0\UserLoginRegisterService.EntityLayer.dll
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\bin\Release\net8.0\UserLoginRegisterService.EntityLayer.pdb
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\obj\Release\net8.0\UserLoginRegisterService.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\obj\Release\net8.0\UserLoginRegisterService.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\obj\Release\net8.0\UserLoginRegisterService.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\obj\Release\net8.0\UserLoginRegisterService.DataAccessLayer.AssemblyInfo.cs
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\obj\Release\net8.0\UserLoginRegisterService.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\obj\Release\net8.0\UserLoginRegisterService.DataAccessLayer.csproj.CopyComplete
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\obj\Release\net8.0\UserLoginRegisterService.DataAccessLayer.dll
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\obj\Release\net8.0\refint\UserLoginRegisterService.DataAccessLayer.dll
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\obj\Release\net8.0\UserLoginRegisterService.DataAccessLayer.pdb
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\obj\Release\net8.0\UserLoginRegisterService.DataAccessLayer.genruntimeconfig.cache
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.DataAccessLayer\obj\Release\net8.0\ref\UserLoginRegisterService.DataAccessLayer.dll

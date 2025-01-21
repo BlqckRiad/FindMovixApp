@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NXfRHQWTRxqpWDPt9+yWXUKiH3ZykbnsU2GGlapCc3k=",
+  "Source": "FileImageService.API",
+  "BasePath": "_content/FileImageService.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,14 @@
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\bin\Release\net8.0\UserLoginRegisterService.EntityLayer.deps.json
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\bin\Release\net8.0\UserLoginRegisterService.EntityLayer.runtimeconfig.json
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\bin\Release\net8.0\UserLoginRegisterService.EntityLayer.dll
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\bin\Release\net8.0\UserLoginRegisterService.EntityLayer.pdb
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\obj\Release\net8.0\UserLoginRegisterService.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\obj\Release\net8.0\UserLoginRegisterService.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\obj\Release\net8.0\UserLoginRegisterService.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\obj\Release\net8.0\UserLoginRegisterService.EntityLayer.AssemblyInfo.cs
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\obj\Release\net8.0\UserLoginRegisterService.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\obj\Release\net8.0\UserLoginRegisterService.EntityLayer.dll
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\obj\Release\net8.0\refint\UserLoginRegisterService.EntityLayer.dll
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\obj\Release\net8.0\UserLoginRegisterService.EntityLayer.pdb
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\obj\Release\net8.0\UserLoginRegisterService.EntityLayer.genruntimeconfig.cache
+C:\Users\MLNPC\Desktop\FindMovix\Backend\UserLoginRegisterService\ApiConsume\UserLoginRegisterService.EntityLayer\obj\Release\net8.0\ref\UserLoginRegisterService.EntityLayer.dll

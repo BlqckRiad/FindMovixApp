@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiConsume", "ApiConsume", "{0EDC2BEB-EBBB-47C3-BAE8-54B6EED909DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLoginRegisterService.BusinessLayer", "ApiConsume\UserLoginRegisterService.BusinessLayer\UserLoginRegisterService.BusinessLayer.csproj", "{9D97F70C-2772-4B5D-9CE5-57C5B0AFD722}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLoginRegisterService.DataAccessLayer", "ApiConsume\UserLoginRegisterService.DataAccessLayer\UserLoginRegisterService.DataAccessLayer.csproj", "{BB4CA673-1265-4EB3-82AD-DCB2C1C47957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLoginRegisterService.DtoLayer", "ApiConsume\UserLoginRegisterService.DtoLayer\UserLoginRegisterService.DtoLayer.csproj", "{157827D8-CD8E-4CB4-BEBA-7C3AB430FCD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLoginRegisterService.EntityLayer", "ApiConsume\UserLoginRegisterService.EntityLayer\UserLoginRegisterService.EntityLayer.csproj", "{5AA0020A-B065-4103-ACB8-1F1684982F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserLoginRegisterService.API", "ApiConsume\UserLoginRegisterService.API\UserLoginRegisterService.API.csproj", "{CB67BF29-3671-4242-9487-AAF7FABBCDA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D97F70C-2772-4B5D-9CE5-57C5B0AFD722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D97F70C-2772-4B5D-9CE5-57C5B0AFD722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D97F70C-2772-4B5D-9CE5-57C5B0AFD722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D97F70C-2772-4B5D-9CE5-57C5B0AFD722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB4CA673-1265-4EB3-82AD-DCB2C1C47957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB4CA673-1265-4EB3-82AD-DCB2C1C47957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB4CA673-1265-4EB3-82AD-DCB2C1C47957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB4CA673-1265-4EB3-82AD-DCB2C1C47957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157827D8-CD8E-4CB4-BEBA-7C3AB430FCD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157827D8-CD8E-4CB4-BEBA-7C3AB430FCD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157827D8-CD8E-4CB4-BEBA-7C3AB430FCD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157827D8-CD8E-4CB4-BEBA-7C3AB430FCD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA0020A-B065-4103-ACB8-1F1684982F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA0020A-B065-4103-ACB8-1F1684982F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA0020A-B065-4103-ACB8-1F1684982F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA0020A-B065-4103-ACB8-1F1684982F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB67BF29-3671-4242-9487-AAF7FABBCDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB67BF29-3671-4242-9487-AAF7FABBCDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB67BF29-3671-4242-9487-AAF7FABBCDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB67BF29-3671-4242-9487-AAF7FABBCDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D97F70C-2772-4B5D-9CE5-57C5B0AFD722} = {0EDC2BEB-EBBB-47C3-BAE8-54B6EED909DF}
+		{BB4CA673-1265-4EB3-82AD-DCB2C1C47957} = {0EDC2BEB-EBBB-47C3-BAE8-54B6EED909DF}
+		{157827D8-CD8E-4CB4-BEBA-7C3AB430FCD4} = {0EDC2BEB-EBBB-47C3-BAE8-54B6EED909DF}
+		{5AA0020A-B065-4103-ACB8-1F1684982F86} = {0EDC2BEB-EBBB-47C3-BAE8-54B6EED909DF}
+		{CB67BF29-3671-4242-9487-AAF7FABBCDA6} = {0EDC2BEB-EBBB-47C3-BAE8-54B6EED909DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C224074-F030-4211-98C7-A791230A4B66}
+	EndGlobalSection
+EndGlobal

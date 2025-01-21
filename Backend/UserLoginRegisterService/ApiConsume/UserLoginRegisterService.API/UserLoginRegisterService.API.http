@@ -1,0 +1,6 @@
+@UserLoginRegisterService.API_HostAddress = http://localhost:5209
+
+GET {{UserLoginRegisterService.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
