@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "FindMovix",
+    "slug": "FindMovix",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.findmovix.app",
+      "buildNumber": "2",
+      "supportsTablet": false,
+      "deploymentTarget": "15.1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs access to the camera to let you take photos.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to photos for sharing images.",
+        "NSPhotoLibraryAddUsageDescription": "This app needs access to photos for saving images.",
+        "UIBackgroundModes": ["fetch"]
+      }
+    },
+    "android": {
+      "package": "com.findmovix.app",
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1cabfc36-9c9e-47ca-b3ef-f853c254e425"
+      }
+    }
+  }
+}
