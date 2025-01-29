@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 import { useTheme } from '../../context/ThemeContext';
 import { useNavigation } from '@react-navigation/native';
+import { useAuth } from '../../context/AuthContext'; // AuthContext'i import ettik
 import LottieView from 'lottie-react-native';
 import { getMovieRecommendations } from '../../services/ai';
 import { fetchMovieDetails } from '../../services/apiConfig';
@@ -82,6 +83,7 @@ const LoadingScreen = ({ colors, t }) => {
 };
 
 const MovieRecommendationResultScreen = ({ route }) => {
+    const { user } = useAuth(); // Kullanıcı bilgilerini almak için useAuth kullanıyoruz.
     const { preferences } = route.params;
     const { theme, language } = useTheme();
     const colors = theme.colors;
@@ -94,8 +96,12 @@ const MovieRecommendationResultScreen = ({ route }) => {
     const t = translations[language];
 
     useEffect(() => {
-        fetchRecommendations();
-    }, []);
+        if (!user) {
+            navigation.navigate('Login'); // Kullanıcı giriş yapmamışsa login ekranına yönlendir.
+        } else {
+            fetchRecommendations();
+        }
+    }, [user, navigation]);
 
     const fetchRecommendations = async (page = 1) => {
         try {

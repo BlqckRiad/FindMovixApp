@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
     View,
     Text,
@@ -14,6 +14,7 @@ import Slider from '@react-native-community/slider';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { useNavigation } from '@react-navigation/native';
 import EmptyAreaModal from '../../components/modals/EmptyAreaModal';
+import { useAuth } from '../../context/AuthContext'; // AuthContext'i import ettik.
 
 const translations = {
     en: {
@@ -127,7 +128,7 @@ const GenreSelector = ({ onSelect, selectedGenres, genres }) => {
 };
 
 const MovieRecommendationScreen = () => {
-    const { theme, language } = useTheme();
+    const { theme, language, user } = useTheme(); // Kullanıcı bilgilerini almak için useTheme'den user'ı aldık.
     const colors = theme.colors;
     const navigation = useNavigation();
     const t = translations[language];
@@ -137,6 +138,8 @@ const MovieRecommendationScreen = () => {
     const [yearRange, setYearRange] = useState({ start: 2000, end: 2024 });
     const [duration, setDuration] = useState({ min: 60, max: 180 });
     const [modalVisible, setModalVisible] = useState(false);
+
+  
 
     const handleGetRecommendations = () => {
         if (!mood || selectedGenres.length === 0) {

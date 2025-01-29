@@ -11,7 +11,8 @@ import {
     ScrollView,
     ActivityIndicator,
     Image,
-    Modal
+    Modal,
+    Button
 } from 'react-native';
 import { useTheme } from '../../context/ThemeContext';
 import { spacing, radius } from '../../theme/spacing';
@@ -48,7 +49,14 @@ const RegisterScreen = ({ navigation }) => {
         password: '',
         userTelNo: ''
     });
+    
+    
+    const [modalVisible, setModalVisible] = useState(false);
 
+    const closeModal = () => {
+        setModalVisible(false);
+        navigation.navigate('Login');
+    };
     const formatPhoneNumber = (text) => {
         // Sadece rakamları al
         const numbers = text.replace(/\D/g, '');
@@ -86,7 +94,7 @@ const RegisterScreen = ({ navigation }) => {
     const handleRegister = async () => {
         // Form validasyonu
         if (!formData.name || !formData.surName || !formData.userName || 
-            !formData.userEmail || !formData.password || !formData.userTelNo) {
+            !formData.userEmail || !formData.password) {
             Alert.alert(t.error, 'Lütfen tüm alanları doldurun.');
             return;
         }
@@ -98,16 +106,16 @@ const RegisterScreen = ({ navigation }) => {
             return;
         }
 
-        // Telefon numarası kontrolü
-        const phoneNumbers = formData.userTelNo.replace(/\D/g, '');
-        if (selectedCountry.code === 'TR' && phoneNumbers.length !== 10) {
-            Alert.alert(t.error, 'Geçerli bir telefon numarası girin.');
-            return;
-        }
-        if (selectedCountry.code === 'GB' && phoneNumbers.length !== 10) {
-            Alert.alert(t.error, 'Geçerli bir telefon numarası girin.');
-            return;
-        }
+        // // Telefon numarası kontrolü
+        // const phoneNumbers = formData.userTelNo.replace(/\D/g, '');
+        // if (selectedCountry.code === 'TR' && phoneNumbers.length !== 10) {
+        //     Alert.alert(t.error, 'Geçerli bir telefon numarası girin.');
+        //     return;
+        // }
+        // if (selectedCountry.code === 'GB' && phoneNumbers.length !== 10) {
+        //     Alert.alert(t.error, 'Geçerli bir telefon numarası girin.');
+        //     return;
+        // }
 
         // Şifre uzunluğu kontrolü
         if (formData.password.length < 6) {
@@ -119,8 +127,8 @@ const RegisterScreen = ({ navigation }) => {
         try {
             const phoneWithPrefix = selectedCountry.prefix + formData.userTelNo.replace(/\D/g, '');
             const registerData = {
-                ...formData,
-                userTelNo: phoneWithPrefix
+                ...formData
+                //userTelNo: phoneWithPrefix
             };
             
             await registerUser(registerData);
@@ -134,6 +142,7 @@ const RegisterScreen = ({ navigation }) => {
                     }
                 ]
             );
+
         } catch (error) {
             Alert.alert(t.error, error.message);
         } finally {
@@ -207,7 +216,11 @@ const RegisterScreen = ({ navigation }) => {
                     {renderInput('person-outline', 'Soyad', 'surName')}
                     {renderInput('person-circle-outline', 'Kullanıcı Adı', 'userName')}
                     {renderInput('mail-outline', 'E-posta', 'userEmail', 'email-address')}
-                    {renderInput('call-outline', 'Telefon', 'userTelNo', 'phone-pad')}
+                    {/**
+                     *  /* 
+                     {renderInput('call-outline', 'Telefon', 'userTelNo', 'phone-pad')}
+                     *
+                     */}
                     {renderInput('lock-closed-outline', 'Şifre', 'password', 'default', true)}
 
                     <TouchableOpacity 
@@ -278,6 +291,25 @@ const RegisterScreen = ({ navigation }) => {
                                 </Text>
                             </TouchableOpacity>
                         ))}
+                    </View>
+                </View>
+            </Modal>
+
+            <Modal
+                animationType="slide"
+                transparent={true}
+                visible={modalVisible}
+                onRequestClose={() => {
+                    setModalVisible(!modalVisible);
+                }}
+            >
+                <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+                    <View style={{ margin: 20, backgroundColor: 'white', borderRadius: 20, padding: 35, alignItems: 'center', shadowColor: '#000', shadowOffset: { width: 0, height: 2 }, shadowOpacity: 0.25, shadowRadius: 4, elevation: 5 }}>
+                        <Text style={{ marginBottom: 15, textAlign: 'center' }}>Kayıt işlemi başarılı!</Text>
+                        <Button
+                            onPress={() => setModalVisible(!modalVisible)}
+                            title="Tamam"
+                        />
                     </View>
                 </View>
             </Modal>
@@ -396,4 +428,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default RegisterScreen; 
+export default RegisterScreen;

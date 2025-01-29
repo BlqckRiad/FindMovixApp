@@ -2,7 +2,7 @@
   "expo": {
     "name": "FindMovix",
     "slug": "FindMovix",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -17,13 +17,13 @@
     ],
     "ios": {
       "bundleIdentifier": "com.findmovix.app",
-      "buildNumber": "2",
+      "buildNumber": "3",
       "supportsTablet": false,
       "deploymentTarget": "15.1",
       "infoPlist": {
-        "NSCameraUsageDescription": "This app needs access to the camera to let you take photos.",
-        "NSPhotoLibraryUsageDescription": "This app needs access to photos for sharing images.",
-        "NSPhotoLibraryAddUsageDescription": "This app needs access to photos for saving images.",
+        "NSCameraUsageDescription": "Bu uygulama, fotoğraf çekebilmeniz için kameraya erişim gerektirir. Bu sayede anlık fotoğraflar çekebilir ve uygulama içi özellikleri kullanabilirsiniz.",
+        "NSPhotoLibraryUsageDescription": "Bu uygulama, fotoğraflarınızı paylaşabilmek için fotoğraf kütüphanenize erişim gerektirir. Böylece istediğiniz fotoğrafları seçip paylaşabilirsiniz.",
+        "NSPhotoLibraryAddUsageDescription": "Bu uygulama, fotoğraflarınızı kaydedebilmek için fotoğraf kütüphanenize erişim gerektirir. Bu sayede uygulama içi içerikleri kolayca kaydedebilirsiniz.",
         "UIBackgroundModes": ["fetch"]
       }
     },

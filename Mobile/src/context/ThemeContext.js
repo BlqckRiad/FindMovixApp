@@ -8,10 +8,14 @@ export const useTheme = () => useContext(ThemeContext);
 // Dil çevirileri
 export const translations = {
     tr: {
+        // Önemliler 
+        hataGuest : 'Misafir Kullanıcı Hatası ', 
+        hataGuest2:'Bu sayfayı misafir kullanıcı ile görüntüleyemezsiniz. Lütfen kullanıcı girişi yapınız!',
+
         // Giriş Ekranı
         welcome: 'FindMovix\'e Hoş Geldiniz',
         email: 'E-posta',
-        emailOrPhone: 'E-posta veya Telefon Numarası',
+        emailOrPhone: 'E-posta',
         password: 'Şifre',
         login: 'Giriş Yap',
         register: 'Kayıt Ol',
@@ -22,6 +26,7 @@ export const translations = {
         invalidPassword: 'Şifre en az 6 karakter olmalıdır',
         selectLanguage: 'Dil Seçin',
         dontHaveAccount: 'Hesabınız Yok Mu?',
+        dontlogin:'Giriş Yapmadan Devam Et',
         
         // Ana Sayfa
         home: 'Ana Sayfa',
@@ -140,10 +145,12 @@ export const translations = {
         noLists: "İzleme listesi bulunamadı. Bir tane oluşturun!",
     },
     en: {
+        hataGuest:'Guest User Problems',
+        hataGuest2 :'You cannot view this type with a guest user. Please log in as user!',
         // Login Screen
         welcome: 'Welcome to FindMovix',
         email: 'Email',
-        emailOrPhone: 'Email or Phone Number',
+        emailOrPhone: 'Email',
         password: 'Password',
         login: 'Login',
         register: 'Register',
@@ -154,6 +161,7 @@ export const translations = {
         invalidPassword: 'Password must be at least 6 characters',
         selectLanguage: 'Select Language',
         dontHaveAccount: 'Don\'t have an account?',
+        dontlogin : 'Continue Without Login',
         
         // Home
         home: 'Home',

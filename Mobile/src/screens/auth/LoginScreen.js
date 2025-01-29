@@ -20,7 +20,7 @@ import LanguageModal from '../../components/language/LanguageModal';
 
 const LoginScreen = ({ navigation }) => {
     const { theme, t, language, changeLanguage } = useTheme();
-    const { login } = useAuth();
+    const { login, setFakeAuth } = useAuth();
     const colors = theme.colors;
     const [showLanguageModal, setShowLanguageModal] = useState(false);
     const [email, setEmail] = useState('');
@@ -43,6 +43,11 @@ const LoginScreen = ({ navigation }) => {
         }
     };
 
+    const handleFakeAuth = () => {
+        console.log('HandleFakeAuth');
+        setFakeAuth();
+    };
+
     return (
         <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
             <KeyboardAvoidingView 
@@ -55,16 +60,14 @@ const LoginScreen = ({ navigation }) => {
                     </Text>
                 </View>
 
-              {/*
-                <TouchableOpacity 
-                    style={[styles.onboardingButton, { backgroundColor: colors.primary }]}
-                    onPress={() => navigation.navigate('Onboarding')}
+                <TouchableOpacity
+                    style={[styles.fakeAuthButton, { backgroundColor: colors.primary }]}
+                    onPress={handleFakeAuth}
                 >
-                    <Text style={[styles.onboardingButtonText, { color: colors.text }]}>
-                        Tanıtımı Görüntüle
+                    <Text style={[styles.fakeAuthButtonText, { color: colors.background }]}>
+                       {t.dontlogin}
                     </Text>
                 </TouchableOpacity>
-              */}
 
                 <View style={styles.form}>
                     <View style={styles.inputContainer}>
@@ -241,6 +244,16 @@ const styles = StyleSheet.create({
         fontSize: typography.sizes.sm,
         fontWeight: typography.weights.semiBold,
     },
+    fakeAuthButton: {
+        padding: 16,
+        borderRadius: 8,
+        marginBottom: 16,
+        alignItems: 'center',
+    },
+    fakeAuthButtonText: {
+        fontSize: 18,
+        fontWeight: 'bold',
+    },
 });
 
-export default LoginScreen; 
+export default LoginScreen;

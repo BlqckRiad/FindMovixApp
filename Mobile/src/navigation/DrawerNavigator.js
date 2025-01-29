@@ -21,8 +21,8 @@ import WatchlistDetailScreen from '../screens/watchlist/WatchlistDetailScreen';
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
 
-const DEFAULT_PROFILE_IMAGE = 'https://randomuser.me/api/portraits/men/1.jpg';
-const APP_VERSION = '1.0.0';
+const DEFAULT_PROFILE_IMAGE = 'https://res.cloudinary.com/dsga1anfp/image/upload/v1738063452/5cd719e5-37a1-48b5-beec-a6eb8c1fce67.png';
+const APP_VERSION = '1.1.0';
 
 const DrawerItem = ({ label, icon, onPress, isActive }) => {
     const { theme } = useTheme();
